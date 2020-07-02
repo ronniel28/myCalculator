@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+}
+.container {
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/bg.jpg);
+}
+.calculator{
+    width: 320px;
+    height: 520px;
+    background-color:#f4f6ff;
+    margin: auto;
+    position: relative;
+    border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.screen{
+    height: 120px;
+    position: relative;
+}
+.keyboard{
+    height: 400px;
+    position: absolute;
+    bottom: 10px;
+}
+.operation, .number, .empty, .equal, .delete, .clear{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+  
+  }
+  .history{
+   
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+
+   
+    
+  }
+  .history-value{
+    width : 100%; 
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 15px;
+    color: #323232;
+    
+  }
+  .input{
+    
+    
+    margin: 10px 20px;
+    
+    position: relative;
+  }
+  .input-value{
+    width : 100%; 
+    box-sizing: border-box;
+    font-size: 30px;
+    height: 60px;
+    text-align: right;
+  }
+  .number, .empty {
+    background-color: #f4f6ff;
+  }
+  .number, .operation, .equal, .delete, .clear{
+    cursor: pointer;
+  }
+  .operation:active, .number:active, .equal:active, .delete:active, .clear:active{
+    font-size: 13px;
+  }
+  .operation:focus, .equal:focus, .number:focus, .empty:focus, .delete:focus, .clear:focus{
+    outline: 0;
+  }
+  
+  input:nth-child(4){
+    font-size: 20px;
+    background-color: #79d70f;
+  }
+  input:nth-child(8){
+    font-size: 20px;
+    background-color: #d32626;
+  }
+  input:nth-child(12){
+    font-size: 20px;
+    background-color: #f5a31a;
+  }
+  input:nth-child(16){
+    font-size: 20px;
+    background-color: #12cad6;
+  }
+  input:nth-child(20){
+    font-size: 20px;
+    background-color: #ffbcbc;
+  }
+  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+ <div class="container">
+     <div class="calculator">
+         <div class="screen">
+            <div class="history">
+                <input type="text" class="history-value" disabled="disabled" value=""></input>
+            </div>
+            <div class="input">
+                <input type="text" class="input-value" disabled="disabled" value=""></input>
+            </div>
+         </div>
+       
+    
+     <div class="keyboard">
+         <input type="button" value="C" id="clear" class="clear"></input>
+         <input type="button" value="CE" id="delete" class="delete"></input>
+         <input type="button" value="%" id="/100" class="operation btn"></input>
+         <input type="button" value="/" id="/" class="operation btn"></input>
+         <input type="button" value="7" id="7" class="number btn"></input>
+         <input type="button" value="8" id="8" class="number btn"></input>
+         <input type="button" value="9" id="9" class="number btn"></input>
+         <input type="button" value="X" id="*" class="operation btn"></input>
+         <input type="button" value="4" id="4" class="number btn"></input>
+         <input type="button" value="5" id="5" class="number btn"></input>
+         <input type="button" value="6" id="6" class="number btn"></input>
+         <input type="button" value="-" id="-" class="operation btn"></input>
+         <input type="button" value="1" id="1" class="number btn"></input>
+         <input type="button" value="2" id="2" class="number btn"></input>
+         <input type="button" value="3" id="3" class="number btn"></input>
+         <input type="button" value="+" id="+" class="operation btn"></input>
+         <input type="button" value="" id="empty" class="empty btn"></input>
+         <input type="button" value="0" id="0" class="number btn"></input>
+         <input type="button" value="" id="empty" class="empty btn"></input>
+         <input type="button" value="=" id="equal" class="equal"></input>
+     </div>
+    </div>
+    
+ </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script src="calculator.js"></script>   
+</body>
+</html>
